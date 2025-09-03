@@ -1,0 +1,43 @@
+#Patient Identifier	Overall Survival Status	Overall Survival (Months)	Sex	Age at Diagnosis	Treatment	Durable Clinical Benefit	M Stage	Previous MAPKi
+#Identifier to uniquely specify a patient.	Overall patient survival status.	Overall survival in months since initial diagonosis.	Sex	Age at Diagnosis	Treatment	Durable Clinical Benefit	M Stage	Previous MAPKi treatment
+#STRING	STRING	NUMBER	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	400	400	301	0	0	304	303	302
+PATIENT_ID	OS_STATUS	OS_MONTHS	SEX	AGE_AT_DIAGNOSIS	TREATMENT	DURABLE_CLINICAL_BENEFIT	M_STAGE	PREVIOUS_MAPKI
+Pt1	1:DECEASED	19.9	Female	66	Pembrolizumab	PD	M1b	No
+Pt10	0:LIVING	12.7	Male	60	Pembrolizumab	PD	M1a	Yes
+Pt11	1:DECEASED	15.3	Male	37	Pembrolizumab	PD	M1c	No
+Pt12	1:DECEASED	10.7	Male	59	Pembrolizumab	PD	M1c	No
+Pt13	0:LIVING	30.1	Female	53	Pembrolizumab	CR	M1c	No
+Pt14	0:LIVING	1.8	Female	27	Pembrolizumab	PD	M1c	No
+Pt15	1:DECEASED	32.1	Male	70	Pembrolizumab	PR	M1b	Yes
+Pt16	1:DECEASED	6.1	Male	19	Pembrolizumab	PD	M1b	Yes
+Pt17	1:DECEASED	31.2	Male	67	Pembrolizumab	PD	M1a	No
+Pt18	0:LIVING	35.4	Male	64	Pembrolizumab	PR	M1c	No
+Pt19	0:LIVING	34.8	Male	45	Pembrolizumab	PR	M1c	No
+Pt2	0:LIVING	30.4	Male	55	Pembrolizumab	PR	M1c	No
+Pt20	1:DECEASED	11.0	Female	63	Pembrolizumab	PD	M1c	No
+Pt21	1:DECEASED	31.0	Male	60	Pembrolizumab	PR	M1b	No
+Pt22	1:DECEASED	6.0	Male	55	Pembrolizumab	PD	M1c	No
+Pt23	1:DECEASED	3.4	Male	63	Pembrolizumab	PD	M1c	Yes
+Pt24	1:DECEASED	31.9	Male	70	Pembrolizumab	PR	M1c	No
+Pt25	1:DECEASED	8.6	Male	74	Pembrolizumab	PD	M1c	Yes
+Pt26	0:LIVING	43.8	Male	71	Pembrolizumab	CR	M1c	Yes
+Pt27	0:LIVING	18.0	Male	83	Pembrolizumab	CR	M1c	No
+Pt28	1:DECEASED	14.4	Male	82	Pembrolizumab	PR	M1c	No
+Pt29	1:DECEASED	8.8	Male	84	Pembrolizumab	PD	M1c	Yes
+Pt3	1:DECEASED	22.7	Male	58	Pembrolizumab	PR	M1c	No
+Pt30	1:DECEASED	3.3	Female	80	Pembrolizumab	PD	M1c	No
+Pt31	0:LIVING	23.1	Male	47	Pembrolizumab	PD	M1c	No
+Pt32	1:DECEASED	5.6	Male	47	Pembrolizumab	PD	M1c	Yes
+Pt33	0:LIVING	71.4	Female	80	Nivolumab	CR	M1a	No
+Pt34	0:LIVING	13.7	Male	42	Pembrolizumab	CR	M1c	Yes
+Pt35	0:LIVING	14.0	Female	65	Pembrolizumab	PR	M1c	Yes
+Pt36	1:DECEASED	27.4	Female	61	Nivolumab	PD	M1a	No
+Pt37	0:LIVING	11.9	Female	70	Pembrolizumab	PR	M1c	Yes
+Pt38	0:LIVING	14.7	Female	57	Pembrolizumab	PR	M1c	Yes
+Pt4	0:LIVING	31.1	Male	62	Pembrolizumab	PR	M1c	Yes
+Pt5	0:LIVING	14.4	Male	61	Pembrolizumab	PR	M1c	No
+Pt6	0:LIVING	28.9	Male	51	Pembrolizumab	PR	M1c	Yes
+Pt7	1:DECEASED	21.7	Female	55	Pembrolizumab	PD	M1c	No
+Pt8	0:LIVING		Male	69	Pembrolizumab	CR	M1a	No
+Pt9	0:LIVING	34.6	Male	68	Pembrolizumab	CR	M0	No

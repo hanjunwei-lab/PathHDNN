@@ -208,7 +208,7 @@ class BINN(pl.LightningModule):
         if self.scheduler == "plateau":
             scheduler = {
                 "scheduler": torch.optim.lr_scheduler.ReduceLROnPlateau(
-                    optimizer, patience=5, threshold=0.01, mode="min", verbose=True
+                    optimizer, patience=5, threshold=0.01, mode="min"
                 ),
                 "interval": "epoch",
                 "monitor": monitor,
@@ -216,7 +216,7 @@ class BINN(pl.LightningModule):
         elif self.scheduler == "step":
             scheduler = {
                 "scheduler": torch.optim.lr_scheduler.StepLR(
-                    optimizer, step_size=25, gamma=0.1, verbose=True
+                    optimizer, step_size=25, gamma=0.1
                 )
             }
 

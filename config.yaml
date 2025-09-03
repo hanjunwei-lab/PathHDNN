@@ -1,0 +1,25 @@
+dependencies:
+  python: 3.9.13
+  torch: 2.8.0
+  numpy: 2.0.2
+  pandas: 2.3.2
+  binn: 0.0.2
+  scikit-learn: 1.5.2
+model:
+  name: PathHDNN
+  pretrained: true
+  num_classes: 2
+  freeze_backbone: false
+training:
+  batch_size: 36
+  epochs: 10000
+  learning_rate: 0.001
+  optimizer: adam
+  scheduler: plateau
+  weight_decay: 0.001
+dataloader:
+  dataset_path: ./data
+  batch_size: 36
+  shuffle: true
+  drop_last: false
+  num_wokers: 0
